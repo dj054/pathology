@@ -6,4 +6,4 @@ const sequelize = new Sequelize('test-db', 'user', 'pass', {
 })
 sequelize.sync().then(() => console.log('db set'))
 
-module.exports = sequelize
+module.exports = sequelize;
